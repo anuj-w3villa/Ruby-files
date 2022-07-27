@@ -1,0 +1,1 @@
+puts Dir.exists? "/home/ankit/Documents/Ruby"
