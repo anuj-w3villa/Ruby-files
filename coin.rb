@@ -5,7 +5,7 @@ def coin_dispensor(n)
       :nickel  => 0,
       :penny   => 0
   }
-    while(n!=0)
+    while(n!= 0)
       if(n >= 25)
         n = n-25
         h1[:quarter] += 1
@@ -27,7 +27,6 @@ def coin_dispensor(n)
     puts "10 dime    = #{ h1[:dime]    } "
     puts "5 nickel   = #{ h1[:nickel]  } "
     puts "1 peny     = #{ h1[:penny]   } "
-    # puts h1
 end
 
 puts "Enter the Coin Value"
