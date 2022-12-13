@@ -24,6 +24,24 @@
 #   print  multiple_flatten(array,3)
 #   puts
 
+
+# 2nd Way of flatten
+# arr = [1,2,3,[4,5,6,7],[8,9]]
+# $flat_array = []
+
+# def get_flatten_array (array)  
+#   array.each do |element|
+#     if (element.kind_of?(Array))
+#       get_flatten_array(element)  
+#     else
+#       $flat_array.push(element)
+#     end
+#   end
+# end
+
+# get_flatten_array(arr)
+# print("#{$flat_array}")
+
 a = [[1,2,3],[[4,5,6,7]],[8,9,10,[11,12]]]
 def myflatten(a,b=[])
   a.each do |ele|
